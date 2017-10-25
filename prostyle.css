@@ -37,5 +37,33 @@ nav {
   border-style: outset;
   font-family: serif;
   font-size: 18px;
+}
+
+.intrests {
+  margin: auto;
+  padding: 25px;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-style: hidden;
+  background-color: gray;
+  color: lightgray;
+  display: inline-block;
+  float: right;
+  margin-right: 180px;
+  margin-top: 500px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.aboutMe {
+  margin: auto;
+  background-color: white;
+  display: inline-block;
+  margin-top: 500px;
+  margin-left: 200px;
+  box-shadow: 5px 5px 5px black;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  width: 500px; height: auto;
 
 }

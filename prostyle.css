@@ -15,7 +15,7 @@ nav {
 
 .backDrop {
   background-image: url('https://image.shutterstock.com/z/stock-photo-abstract-polygonal-space-low-poly-dark-background-with-connecting-dots-and-lines-connection-550182499.jpg');
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   width: 100%; height: 900px;
@@ -45,8 +45,7 @@ nav {
   font-size: 20px;
   font-family: sans-serif;
   border-style: hidden;
-  background-color: gray;
-  color: lightgray;
+  background-color: white;
   display: inline-block;
   float: right;
   margin-right: 180px;
@@ -65,5 +64,31 @@ nav {
   font-size: 20px;
   padding: 25px;
   width: 500px; height: auto;
+}
 
+.edu {
+  margin: auto;
+  background-color: white;
+  display: inline-block;
+  float: right;
+  margin-right: 180px;
+  margin-top: 500px;
+  font-family: sans-serif;
+  padding: 25px;
+  box-shadow: 5px 5px 5px black;
+  font-size: 20px;
+}
+
+.pRoofs {
+  margin: auto;
+  background-color: white;
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  font-size: 20px;
+  padding: 25px;
+  margin-left: 200px;
+  margin-top: 500px;
+  font-family: sans-serif;
+  box-shadow: 5px 5px 5px black;
 }

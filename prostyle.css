@@ -13,6 +13,7 @@ nav {
   position: fixed;
   opacity: 0.8;
   z-index: 2;
+  position: fixed;
 }
 
 .backDrop {
@@ -70,12 +71,24 @@ nav {
   width: 500px; height: auto;
 }
 
-.edu {
+.intrests {
+  background-color: white;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 200px;
+  box-shadow: 5px 5px 5px black;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  width: 500px; height: auto;
+}
+
+.skilAtt {
   background-color: white;
   display: inline-block;
   float: right;
   margin-right: 120px;
-  margin-top: 100px;
+  margin-top: 130px;
   font-family: sans-serif;
   padding: 25px;
   box-shadow: 5px 5px 5px black;
@@ -101,9 +114,9 @@ nav {
   font-size: 20px;
   font-family: sans-serif;
   margin-left: 100px;
+  margin-top: 130px;
   padding: 25px;
   box-shadow: 5px 5px 5px black;
-
 }
 
 .pRoofs {
@@ -173,9 +186,10 @@ h2 {
 
 .photoBlock {
   display: inline-block;
-  margin-left: 200px;
-  margin-top: 100px
-  float: left;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-right: 200px;
+  float: right;
   box-shadow: 5px 5px 5px black;
 }
 
@@ -191,6 +205,10 @@ h2 {
 /* BELOW THIS LINE IS ALL MEDIA QUERYS FOR COMPRESSION AND RESPONSIVENESS */
 
 @media screen and (max-width: 480px){
+  .backDrop{
+    height: 2000px
+  }
+
   .profilePic{
     width: 100%;
     margin-left: 0px;
@@ -202,6 +220,76 @@ h2 {
     margin-left: 0px;
   }
 
-  
+  .aboutMe{
+    width: 350px;
+    margin-left: 10px;
+    padding: 5px;
+  }
 
+  .acomPlish{
+    width: 350px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 0px;
+    float: left;
+  }
+
+  .photoBlock{
+    width: 100%;
+    margin-left: 10px;
+    float: left;
+    padding: 0px;
+  }
+
+  .intrests{
+    width: 350px;
+    margin-left: 10px;
+    padding: 5px;
+  }
+
+  .qualF{
+    margin-left: 10px;
+    margin-top: 100px;
+    display: inline-block;
+  }
+
+  .pRoofs{
+    margin-left: 10px;
+    margin-top: 50px;
+    display: block;
+  }
+
+  .skilAtt{
+    margin-right: 0px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 10px;
+    display: block;
+    width: 300px;
+  }
+
+  .Exp{
+    margin-right: 0px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 10px;
+    display: block;
+    width: 300px;
+  }
+
+  .otherCont{
+    margin-left: 10px;
+    width: 300px;
+    margin-top: 100px;
+  }
+
+  .fbutton{
+    float: left;
+    margin-top: 100px;
+  }
+
+  .gitLink{
+    float: left;
+    margin-top: 100px;
+  }
 }

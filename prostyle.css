@@ -2,10 +2,10 @@ nav {
   width: 100%;
   height: 67px;
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
   font-family: sans-serif;
-  word-spacing: 50px;
+  word-spacing: 100px;
   background-color: aliceblue;
   text-decoration: none;
   padding-top: 20px;
@@ -13,7 +13,6 @@ nav {
   position: fixed;
   opacity: 0.8;
   z-index: 2;
-  position: fixed;
 }
 
 .backDrop {
@@ -38,7 +37,7 @@ nav {
   background-color: white;
   width: 500px; height: auto;
   margin-left: 450px;
-  margin-top: 0px;
+  margin-top: 20px;
   box-shadow: 5px 5px 5px black;
   font-family: sans-serif;
   font-size: 20px;
@@ -148,19 +147,14 @@ h2 {
 }
 
 .fbutton {
-  background-color:#3b5998;
   font-family: sans-serif;
-  color: white;
-  border-radius: 50%;
-  width: 50px; height: 50px;
-  padding: 15px;
   display: inline-block;
   float: right;
   margin-top: 300px;
   margin-right: 200px;
-  margin-left: 200px;
-  display: inline-block;
-  box-shadow: 5px 5px 5px black;
+  margin-left: 150px;
+  padding: 15px;
+
 }
 
 .otherCont {
@@ -171,12 +165,14 @@ h2 {
   height: auto; width: auto;
   box-shadow: 5px 5px 5px black;
   padding: 15px;
+  font-family: sans-serif;
+  font-size: 25px;
 }
 
 .photoBlock {
   display: inline-block;
   margin-left: 100px;
-  margin-top: 100px;
+  margin-top: 00px;
   margin-right: 200px;
   float: right;
   box-shadow: 5px 5px 5px black;
@@ -226,6 +222,7 @@ h2 {
   .photoBlock{
     width: 100%;
     margin-left: 10px;
+    margin-top: 50px;
     float: left;
     padding: 0px;
   }
@@ -268,16 +265,22 @@ h2 {
 
   .otherCont{
     margin-left: 10px;
-    width: 300px;
+    width: auto;
     margin-top: 100px;
   }
 
   .fbutton{
     float: left;
     margin-top: 100px;
+    margin-left: 50px;
   }
 
   h2 {
     color: gray;
+  }
+
+  nav{
+    font-size: 14px;
+    word-spacing: 50px;
   }
 }

@@ -16,7 +16,7 @@ nav {
 }
 
 .backDrop {
-  background-image: url('https://image.shutterstock.com/z/stock-photo-wood-background-texture-119246809.jpg');
+  background-image: url('./table.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

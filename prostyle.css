@@ -1,0 +1,286 @@
+nav {
+  width: 100%;
+  height: 67px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: sans-serif;
+  word-spacing: 100px;
+  background-color: aliceblue;
+  text-decoration: none;
+  padding-top: 20px;
+  float: top;
+  position: fixed;
+  opacity: 0.8;
+  z-index: 2;
+}
+
+.backDrop {
+  background-image: url('./table.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%; height: 1100px;
+  z-index: -1;
+}
+
+.profilePic {
+  width: 330px; height: 400px;
+  transform: rotate(0deg);
+  margin-left: 530px;
+  margin-top: 120px;
+  box-shadow: 5px 5px 5px black;
+  position: -50px 0;
+}
+
+.bio {
+  background-color: white;
+  width: 500px; height: auto;
+  margin-left: 450px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px black;
+  font-family: sans-serif;
+  font-size: 20px;
+  position: relative;
+  padding: 15px;
+}
+
+.acomPlish {
+  padding: 25px;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-style: hidden;
+  background-color: white;
+  display: inline-block;
+  float: right;
+  margin-right: 180px;
+  margin-top: 100px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.aboutMe {
+  background-color: white;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 200px;
+  box-shadow: 5px 5px 5px black;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  width: 500px; height: auto;
+}
+
+.intrests {
+  background-color: white;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 200px;
+  box-shadow: 5px 5px 5px black;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 25px;
+  width: 500px; height: auto;
+}
+
+.skilAtt {
+  background-color: white;
+  display: inline-block;
+  float: right;
+  margin-right: 120px;
+  margin-top: 130px;
+  font-family: sans-serif;
+  padding: 25px;
+  box-shadow: 5px 5px 5px black;
+  font-size: 20px;
+}
+
+.Exp {
+  background-color: white;
+  display: inline-block;
+  float: left;
+  margin-left: 120px;
+  margin-top: 100px;
+  font-family: sans-serif;
+  padding: 25px;
+  box-shadow: 5px 5px 5px black;
+  font-size: 20px;
+}
+
+.qualF {
+  background-color: white;
+  display: inline-block;
+  height: auto; width: 300px;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 100px;
+  margin-top: 130px;
+  padding: 25px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.pRoofs {
+  background-color: white;
+  display: inline-block;
+  width: 300px;
+  height: auto;
+  font-size: 20px;
+  padding: 25px;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-family: sans-serif;
+  box-shadow: 5px 5px 5px black;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: sans-serif;
+  background-color: gray;
+  color: white;
+  display: inline-block;
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  position: fixed;
+  width: 100%;
+  margin-top: 0px;
+}
+
+.fbutton {
+  font-family: sans-serif;
+  display: inline-block;
+  float: right;
+  margin-top: 300px;
+  margin-right: 200px;
+  margin-left: 150px;
+  padding: 15px;
+
+}
+
+.otherCont {
+  background-color: white;
+  display: inline-block;
+  margin-left: 300px;
+  margin-top: 300px;
+  height: auto; width: auto;
+  box-shadow: 5px 5px 5px black;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+.photoBlock {
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 00px;
+  margin-right: 200px;
+  float: right;
+  box-shadow: 5px 5px 5px black;
+}
+
+#portrait {
+  width: 330px; height:400px;
+  display: inline-block;
+}
+
+.conttitle {
+  font-weight: bold;
+}
+
+/* BELOW THIS LINE IS ALL MEDIA QUERYS FOR COMPRESSION AND RESPONSIVENESS */
+
+@media screen and (max-width: 480px){
+  .backDrop{
+    height: 2000px
+  }
+
+  .profilePic{
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .bio {
+    width: auto;
+    height: auto;
+    margin-left: 0px;
+  }
+
+  .aboutMe{
+    width: 350px;
+    margin-left: 10px;
+    padding: 5px;
+  }
+
+  .acomPlish{
+    width: 350px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 0px;
+    float: left;
+  }
+
+  .photoBlock{
+    width: 100%;
+    margin-left: 10px;
+    margin-top: 50px;
+    float: left;
+    padding: 0px;
+  }
+
+  .intrests{
+    width: 350px;
+    margin-left: 10px;
+    padding: 5px;
+  }
+
+  .qualF{
+    margin-left: 10px;
+    margin-top: 100px;
+    display: inline-block;
+  }
+
+  .pRoofs{
+    margin-left: 10px;
+    margin-top: 50px;
+    display: block;
+  }
+
+  .skilAtt{
+    margin-right: 0px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 10px;
+    display: block;
+    width: 300px;
+  }
+
+  .Exp{
+    margin-right: 0px;
+    margin-top: 50px;
+    float: left;
+    margin-left: 10px;
+    display: block;
+    width: 300px;
+  }
+
+  .otherCont{
+    margin-left: 10px;
+    width: auto;
+    margin-top: 100px;
+  }
+
+  .fbutton{
+    float: left;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+
+  h2 {
+    color: gray;
+  }
+
+  nav{
+    font-size: 14px;
+    word-spacing: 50px;
+  }
+}
